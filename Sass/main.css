@@ -1,0 +1,350 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 1.2;
+}
+
+.large-hero__primary {
+  color: #2F5572;
+  font-size: 7.68rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.large-hero__secondary {
+  color: #2F5572;
+  font-size: 4.64rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.large-hero__description {
+  color: #fff;
+  font-size: 3rem;
+  max-width: 48rem;
+  margin: 3rem auto;
+  text-align: center;
+  line-height: 3.45rem;
+  font-weight: 100;
+  text-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.heading-secondary {
+  font-size: 4.6rem;
+  color: #2F5572;
+  text-align: center;
+}
+
+.heading-secondary-testimonials {
+  font-size: 6rem;
+  color: #2F5572;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  color: #d59541;
+  text-align: center;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  margin-bottom: 2.8rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.paragraph__link {
+  color: #d59541;
+  font-weight: 500;
+}
+
+.wrapper {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  max-width: 123.6rem;
+  margin: 0 auto;
+}
+
+.wrapper__medium {
+  max-width: 976px;
+}
+
+.wrapper .wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wrap-only {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2.3rem;
+}
+
+.u-margin-bottom-mid {
+  margin-bottom: 4.8rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 6.2em;
+}
+
+.heading-light {
+  font-weight: 100;
+}
+
+.heading-light-300 {
+  font-weight: 300;
+}
+
+.content-divider {
+  background: -webkit-gradient(linear, right top, left top, from(#2F5572), to(#005196));
+  background: linear-gradient(to left, #2F5572, #005196);
+  height: 1rem;
+}
+
+.page-section {
+  padding: 7.2rem 0;
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+}
+
+.btn--blue {
+  background-color: #2F5572;
+  color: #fff;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+}
+
+.btn--orange {
+  background-color: #d59541;
+  color: #fff;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+}
+
+.btn--large {
+  font-size: 2rem;
+  padding: 1.76rem 3.04rem;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 4.98rem 0rem;
+}
+
+.feature__img {
+  font-size: 6rem;
+  margin-right: 2rem;
+  position: relative;
+}
+
+.feature__img--box {
+  top: 4rem;
+  left: 4rem;
+}
+
+.feature__title {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+.feature-box {
+  width: 50%;
+  margin: 0 40px;
+  margin-bottom: 50px;
+}
+
+.feature-box__heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1.28rem;
+}
+
+.feature-box__text {
+  font-size: 1.8rem;
+  line-height: 2.97rem;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.testomonial-ibox {
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+}
+
+.testomonials-card {
+  width: 30%;
+  text-align: center;
+  background: #fff;
+  height: 52vh;
+  padding: 0.1rem 2.9rem;
+  opacity: .9;
+  border-radius: .4rem;
+}
+
+.testomonials-card__content {
+  top: -7rem;
+  position: relative;
+}
+
+.testomonials-card__img {
+  border-radius: 20rem;
+  border: solid 0.5rem #fff;
+  width: 50%;
+}
+
+.testomonials-card__heading {
+  font-size: 2.4rem;
+  color: #2F5572;
+}
+
+.testomonials-card__heading--orange {
+  font-size: 1.6rem;
+  color: #d59541;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.testomonials-card__paragraph {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.97rem;
+}
+
+.flex-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-one__dad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 63%;
+}
+
+.flex-img {
+  width: 37%;
+}
+
+.flex-two-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-two-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.heading-testimonial-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.large-hero {
+  background-image: url(/assets/images/hero--medium.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 80vh;
+}
+
+@media (min-width: 600px) {
+  .large-hero {
+    background-image: url(/assets/images/hero--large.jpg);
+  }
+}
+
+.large-hero__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 105%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-features {
+  background: #2F5572;
+  color: #fff;
+  padding: 7.2rem 0;
+}
+
+.section-testimonials {
+  padding: 7.2rem 0;
+  background: url(/assets/images/testimonials-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=main.css.map */

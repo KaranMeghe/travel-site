@@ -1,0 +1,33 @@
+ .wrapper{
+ padding-left: 1.8rem;    
+ padding-right: 1.8rem;
+ max-width: 123.6rem;
+ margin: 0 auto;
+
+ &__medium{
+ max-width: 976px;    
+ }
+
+ .wrapper{
+    padding-left: 0;    
+    padding-right: 0;    
+ }
+ }
+
+ .wrap-only{margin: 0 auto; max-width: 1200px; }
+
+ .u-margin-bottom-small{margin-bottom:2.3rem;}
+ .u-margin-bottom-mid{margin-bottom: 4.8rem;}
+ .u-margin-bottom-big{margin-bottom: 6.2em;}
+
+ .heading-light{font-weight: 100;}
+ .heading-light-300{font-weight: 300;}
+
+ .content-divider{
+ background: linear-gradient(to left ,($color-blue), ($color-blue-light));    
+ height: 1rem;
+ }
+
+ .page-section{
+ padding: 7.2rem 0;    
+ }

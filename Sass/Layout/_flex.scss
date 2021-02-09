@@ -1,0 +1,37 @@
+.flex-one{
+display: flex;  
+justify-content: space-around; 
+
+&__dad{
+display: flex;    
+flex-direction: column;
+width: 63%;
+}
+}
+
+.flex-img{
+width: 37%;    
+}
+
+
+.flex-two-a{
+    display: flex;   
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.flex-two-b{
+    display: flex;   
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.heading-testimonial-box{
+   display: flex;  
+   justify-content: center;
+}
+
+.flex-three{
+display: flex;    
+justify-content: space-around;
+}

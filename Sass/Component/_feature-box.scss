@@ -1,0 +1,41 @@
+.feature{
+display: flex;
+justify-content: center;
+align-items: baseline;
+margin: 4.98rem 0rem;
+
+&__img{
+ font-size: 6rem; 
+ margin-right: 2rem;  
+ position: relative;
+ 
+ &--box{
+     top: 4rem;
+     left: 4rem;
+ }
+}
+
+&__title{
+  font-size: 6rem;  
+  font-weight: 300;
+}
+}
+
+.feature-box{
+    width: 50%;
+    margin: 0 40px;
+    margin-bottom: 50px;
+    
+    &__heading{
+    font-size: 3rem;    
+    font-weight: 300;
+    margin-bottom: 1.28rem;
+    }
+
+    &__text{
+    font-size: 1.8rem;    
+    line-height: 2.97rem;
+    text-align: justify;
+    font-weight: 300;
+    }
+}

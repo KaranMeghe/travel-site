@@ -1,0 +1,61 @@
+.large-hero{
+    
+        &__primary{
+        color: $color-blue;
+        font-size: 7.68rem;
+        font-weight: 300;
+        margin: 0;
+        }
+
+        &__secondary{
+        color: $color-blue;    
+        font-size: 4.64rem;
+        font-weight: 300;
+        margin: 0;
+        }
+
+        &__description{
+        color:$color-white;    
+        font-size: 3rem;
+        max-width: 48rem;
+        margin: 3rem auto;
+        text-align: center;
+        line-height: 3.45rem;
+        font-weight: 100;
+        text-shadow: .2rem .2rem 0 rgba($color-black, .1);
+        
+        }
+}            
+
+        .heading-secondary{
+        font-size: 4.6rem;        
+        color: $color-blue;
+        text-align: center;
+        }
+
+        .heading-secondary-testimonials{
+        font-size: 6rem;         
+        color: $color-blue;
+        }
+
+        .heading-tertiary{
+        font-size: 3rem;        
+        color: $color-orange;
+        text-align: center;
+        max-width: 50rem;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+       .paragraph{
+        font-size: 1.8rem;        
+        line-height: 1.7;
+        margin-bottom: 2.8rem;
+        font-weight: 300;
+        text-align: justify;
+
+        &__link{
+        color: $color-orange;        
+        font-weight: 500;
+        }
+       }

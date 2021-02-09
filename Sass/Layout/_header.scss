@@ -1,0 +1,19 @@
+.large-hero{
+  background-image: url(/assets/images/hero--medium.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 80vh;
+  
+  @media (min-width:600px){
+    background-image: url(/assets/images/hero--large.jpg);  
+  }
+  
+
+  &__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 105%;
+    align-items: center;
+  }
+}
