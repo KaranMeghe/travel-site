@@ -11,20 +11,21 @@
   <link rel="icon" href="/favicon (1).ico">
   <link rel="stylesheet" href="Sass/main.css">
 </head>
-<body>
-  <header>
-    <img src="assets/images/icons/clear-view-escapes.svg">
-    <a href="#" class="btn btn--blue">Get in Touch</a>
-    <nav>
-      <ul>
-        <li><a href="#our-beginning">Our Beginning</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+
+    <!-- Section Header -->
+    
+  <header class="section-header">
+   <div class="section-header__image-container"><img src="assets/images/icons/clear-view-escapes.svg" class="section-header__img"></div>
+    <nav class="section-header__navbar">
+      <ul class="section-header__ul">
+        <li><a href="#our-beginning" class="section-header__link current-link">Our Beginning</a></li>
+        <li><a href="#features"  class="section-header__link">Features</a></li>
+        <li><a href="#testimonials"  class="section-header__link">Testimonials</a></li>
+        <li><a href="#getintouch"  class="section-header__link" >Get in touch</a></li>
       </ul>
     </nav>
-  </header>
+    </header>
 
-  <!-- Section Header -->
   <div class="large-hero">
     <div class="large-hero__text wrapper">
       <h1 class="large-hero__primary">Your clarity.</h1>
@@ -43,10 +44,10 @@
     <!-- Section Our Begning -->
     <div id="our-beginning" class="page-section">
       <div class="wrapper">
-        <h2 class="heading-secondary heading-light u-margin-bottom-small">The first trip we planned <strong>was our own.</strong></h2>
-        <h3 class="heading-tertiary heading-light u-margin-bottom-mid">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
+        <h2 class="heading-secondary heading-lightu u-margin-bottom-small">The first trip we planned <strong>was our own.</strong></h2>
+        <h3 class="heading-tertiary heading-lightu u-margin-bottom-mid">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
           <div class="wrapper wrapper__medium u-margin-bottom-big">
-            <img src="/assets/images/first-trip.jpg" alt="">
+            <img class="lazyload" size="(min-width: 970px) 976w, 100vw" srcset="/assets/images/first-trip-low-res.jpg 565w, /assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
           </div>
 
           <div class="flex-one">
@@ -110,7 +111,7 @@
     <!-- Section testimonials -->
       <section class="section-testimonials" id="testimonials">
        <div class="wrapper">
-        <div class="heading-testimonial-box u-margin-bottom-big">
+        <div class="heading-testimonial-box u-margin-bottom-bigger">
           <img src="assets/images/icons/comment.svg" class="testomonial-ibox">
           <h2 class="heading-secondary-testimonials heading-light">Real<strong>Testimonials</strong> </h2>
         </div>
@@ -147,7 +148,13 @@
       </section>
     <!-- End of section testimonials -->
   </main>
-
+   
+  <!-- Footer -->
+   
+  <footer class="section-footer">
+    <p class="footer-content">Copyright &copy; 2019 Clear View Escapes. All rights reserved. <a href="#" class="btn btn--orange btn--footer">Get in Touch</a></p>
+  </footer>
+  <!-- End of Footer -->
   
 </body>
 </html>

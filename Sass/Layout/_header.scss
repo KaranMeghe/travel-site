@@ -1,11 +1,60 @@
+.section-header{
+  background-color: rgba($color-blue, 0.3);
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 2rem;
+  
+ &__image-container{
+   background-color: $color-blue;
+   padding: 2.5rem 3.6rem;
+   position: absolute;
+   left: 25rem;
+   top: 0;
+
+   
+ }
+
+&__navbar{
+ width: 100%; 
+}
+
+&__ul{
+display: flex;  
+list-style: none;
+justify-content: flex-end;
+margin-right: 20rem;
+
+
+} 
+
+ &__link{
+  color: $color-white; 
+  text-decoration: none;
+  padding:0 2rem;
+  transition: .3s;
+
+  &:hover{
+    color: $color-orange;    
+   }
+ }
+}
+
+.current-link{
+  color: $color-orange;
+}
+
+
 .large-hero{
+
   background-image: url(/assets/images/hero--medium.jpg);
   background-size: cover;
   background-position: top;
   height: 80vh;
-  
-  @media (min-width:600px){
-    background-image: url(/assets/images/hero--large.jpg);  
+
+  @include respond (iPhone-se){
+   height: 85vh; 
   }
   
 
@@ -15,5 +64,9 @@
     justify-content: center;
     height: 105%;
     align-items: center;
+
+    @include respond (iPhone-se){
+      padding-top: 12rem;
+    }
   }
 }

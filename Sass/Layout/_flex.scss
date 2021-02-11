@@ -2,15 +2,27 @@
 display: flex;  
 justify-content: space-around; 
 
+@include respond (iPhone-se){
+  flex-direction: column;   
+}
+
 &__dad{
 display: flex;    
 flex-direction: column;
 width: 63%;
+
+@include respond (iPhone-se){
+    width: 100%;
+}
 }
 }
 
 .flex-img{
 width: 37%;    
+
+@include respond (iPhone-se){
+ width: 100%;   
+}
 }
 
 
@@ -18,20 +30,39 @@ width: 37%;
     display: flex;   
     align-items: baseline;
     justify-content: space-around;
+
+    @include respond (iPhone-se){
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .flex-two-b{
     display: flex;   
     align-items: baseline;
     justify-content: space-around;
+
+    @include respond (iPhone-se){
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .heading-testimonial-box{
    display: flex;  
    justify-content: center;
+
+   @include respond (iPhone-se){
+       flex-direction: column;
+   }
 }
 
 .flex-three{
 display: flex;    
-justify-content: space-around;
+justify-content: space-between;
+
+@include respond (iPhone-se){
+    flex-direction: column;
+}
 }

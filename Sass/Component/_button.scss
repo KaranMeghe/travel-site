@@ -8,7 +8,7 @@
     &--blue{
         background-color: $color-blue;
         color: $color-white;
-        padding: .75rem 1.2rem;
+        padding: 3rem;
         display: inline-block;
     }
 
@@ -22,5 +22,17 @@
     &--large{
         font-size: 2rem;
         padding: 1.76rem 3.04rem;
+
+        @include respond (iPhone-se){
+            margin-top: 5rem;
+            padding: 3.76rem 4.04rem;
+        }
     }
+
+    &--footer{
+        font-weight: 300;
+        margin-left: 3rem;
+        padding: 1.26rem 2.04rem;
+    }
+
 }

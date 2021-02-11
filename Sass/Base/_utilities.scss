@@ -1,3 +1,7 @@
+ img{
+    max-width: 100%;
+ }
+
  .wrapper{
  padding-left: 1.8rem;    
  padding-right: 1.8rem;
@@ -18,16 +22,26 @@
 
  .u-margin-bottom-small{margin-bottom:2.3rem;}
  .u-margin-bottom-mid{margin-bottom: 4.8rem;}
- .u-margin-bottom-big{margin-bottom: 6.2em;}
+ .u-margin-bottom-big{margin-bottom: 6.2rem;}
+ .u-margin-bottom-bigger{margin-bottom: 13.2rem;}
 
- .heading-light{font-weight: 100;}
+
+ .heading-light{font-weight: 100; @include respond (iPhone-se){margin: auto; font-size: 9.5rem;}}
  .heading-light-300{font-weight: 300;}
 
  .content-divider{
  background: linear-gradient(to left ,($color-blue), ($color-blue-light));    
  height: 1rem;
+
+ @include respond (iPhone-se){
+    height: 2rem;
+ }
  }
 
  .page-section{
- padding: 7.2rem 0;    
+ padding: 7.2rem 0;   
+ 
+ @include respond (iPhone-se){
+    padding: 2rem;
+ }
  }
