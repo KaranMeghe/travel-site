@@ -639,7 +639,7 @@ img {
 }
 
 .large-hero {
-  background-image: url(/assets/images/hero--medium.jpg);
+  background-image: url(../assets/images/hero--medium.jpg);
   background-size: cover;
   background-position: top;
   height: 80vh;
@@ -682,7 +682,7 @@ img {
 
 .section-testimonials {
   padding: 7.2rem 0;
-  background: url(/assets/images/testimonials-bg.jpg);
+  background: url(../assets/images/testimonials-bg.jpg);
   background-size: cover;
   background-position: center;
 }
