@@ -149,6 +149,12 @@ html, body {
   text-align: justify;
 }
 
+@media (max-width: 499px) {
+  .paragraph {
+    font-size: 3.5rem;
+  }
+}
+
 .paragraph__link {
   color: #d59541;
   font-weight: 500;

@@ -82,6 +82,10 @@
         font-weight: 300;
         text-align: justify;
 
+        @include respond (iPhone-se){
+         font-size: 3.5rem;       
+        }
+
         &__link{
         color: $color-orange;        
         font-weight: 500;
