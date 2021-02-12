@@ -24,7 +24,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 @mixin respond ($breakpoint) {
     @if $breakpoint == iPhone-se{
-        @media (max-width: 499px) { @content };
+        @media (max-width: 500px) { @content };
     }
     
 }

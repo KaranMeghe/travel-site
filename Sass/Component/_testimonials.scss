@@ -25,6 +25,7 @@ position: relative;
 }
 
 
+
  &__content{
  top: -9rem;    
  position: absolute;
@@ -35,7 +36,17 @@ position: relative;
      border-radius: 20rem;
      border: solid .5rem $color-white;
      width: 50%;
+
+
+     @include respond (iPhone-se){
+      border-radius: 40rem;
+    }
+
+    
  }
+
+ 
+
 
  &__heading{
     font-size: 2.4rem;  
@@ -69,5 +80,6 @@ position: relative;
     line-height: 1;
     text-align: center;
       }
+      
   }
 }
